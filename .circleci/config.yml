@@ -51,8 +51,8 @@ jobs:
               -vid $TEAM_ANALYSISCENTER_ID
               -vkey $TEAM_ANALYSISCENTER_KEY
               -action uploadandscan 
-              -appname "Verademo_circleci"
-              -createprofile true 
+              -appname "Verademo"
+              -createprofile false 
               -version CircleCI-$CIRCLE_BUILD_NUM 
               -filepath ./target/verademo.war
  
